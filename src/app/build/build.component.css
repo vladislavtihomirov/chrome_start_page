@@ -1,0 +1,32 @@
+.groups{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.group .items{
+  display: flex;
+}
+.group{
+  margin-bottom: 40px;
+}
+.group-title{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.item{
+  margin-right: 20px;
+  background: #222;
+}
+.item-title{
+  margin-top: 20px;
+  font-weight: bold;
+}
+mat-icon{
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}

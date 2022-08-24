@@ -1,0 +1,13 @@
+<div class="groups">
+  <div class="group" *ngFor="let group of groups">
+    <div class="group-title">{{group.name}}</div>
+    <div class="items">
+      <a *ngFor="let item of group.items" target="_blank" [href]="item.link" style="color: #fcba03">
+        <button mat-stroked-button class="item">
+          <mat-icon>handyman</mat-icon>
+          <span class="item-title">{{item.name}}</span>
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
